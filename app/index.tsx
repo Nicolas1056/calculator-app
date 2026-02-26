@@ -1,10 +1,8 @@
 import { View } from 'react-native';
-import { useCalculator } from '../hooks/useCalculator';
-
-
 import { CalculatorButton } from '../components/CalculatorButton';
 import { ThemeText } from '../components/ThemeText';
 import { Colors } from '../constants/Colors';
+import { useCalculator } from '../hooks/useCalculator';
 import { globalStyles } from '../styles/global-styles';
 
 const CalculatorApp = () => {
